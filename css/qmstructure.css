@@ -1,0 +1,51 @@
+.hierarchy{
+    width: 100%;
+    margin-bottom: 20px;
+    
+    
+}
+
+.characteristic{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 100px;
+    height: 65px;
+    margin-right: 25px;
+    background-color: darkslategrey;
+    color: white;
+    border: 2px solid seagreen;
+    border-radius: 25px;
+    
+}
+
+.sub-characteristic{
+    width: 105px;
+    height: 65px;
+    border: solid 1px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    background-color: lightgray;
+    
+}
+
+.sub-characteristic:hover{
+    background-color: lightgreen;
+}
+
+.valignfix{
+    width: 105px;
+    height: 65px;
+    position: absolute; 
+    display: table;
+}
+
+.valignfix p{
+    display: table-cell;
+    vertical-align: middle; 
+    text-align: center; 
+}
+
+.ui-tooltip, .arrow:after {
+    background: lightskyblue;
