@@ -38,7 +38,15 @@
 }
 
 .sub-characteristic:hover{
+    background-color: mediumpurple;
+}
+
+.selected{
     background-color: lightgreen;
+}
+
+.notselected{
+    background-color: indianred;
 }
 
 .valignfix{
